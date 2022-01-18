@@ -17,7 +17,7 @@ namespace Inheritance
         {
             get { return _birthDay; }
         }
-        public string name
+        public string Name
         {
             get { return _name; }
         }
