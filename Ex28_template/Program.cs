@@ -8,7 +8,7 @@ namespace Inheritance
         {
             Cat cat = new Cat(new DateTime(2018,8,4), "ペルシャ", 43, 10);
             cat.SelfIntroduction();
-            Car car = new Car("マツダ", 700,10,9);
+            Car car = new Car("マツダ", 7,10,9,50);
             car.SelfIntroduction();
             Fish fish = new Fish(new DateTime(2010, 10, 5), "鮎", 1f, 5f); 
             fish.SelfIntroduction();
@@ -18,6 +18,8 @@ namespace Inheritance
             student.SelfIntroduction();
             Worker worker = new Worker(new DateTime(1997,7,2), "高校教師");
             worker.SelfIntroduction();
+            Plant plant = new Plant(DateTime.Now, "カリフラワー", 7, 4, 2);
+            plant.SelfIntroduction();
         }
     }
 }

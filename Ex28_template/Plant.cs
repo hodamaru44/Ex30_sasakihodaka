@@ -11,5 +11,12 @@ namespace Inheritance
         public Plant(DateTime bd, string n, float w = 0, float h = 0, float d = 0) : base(bd, n, w)
         {
         }
+        public void SelfIntroduction()
+        {
+            Console.WriteLine($"この植物は{name}です。");
+            Birthday();
+            BirthdayConfirmation();
+
+        }
     }
 }

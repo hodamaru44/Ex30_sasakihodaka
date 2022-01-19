@@ -16,7 +16,7 @@ namespace Inheritance
         public float height;
         public float depth;
         public float poids;
-        public Thing(string n = null, float w = 0, float h = 0, float d = 0, float p = 0)
+        public Thing(string n=null , float w = 0, float h = 0, float d = 0, float p = 0)
         {
             name = n;
             width = w;
