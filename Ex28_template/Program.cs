@@ -22,6 +22,8 @@ namespace Inheritance
             plant.SelfIntroduction();
             Refrigerator refrigerator = new Refrigerator("ヒタチィ", 3, 3, 2, 50);
             refrigerator.SelfIntroduction();
+            Cicada cicada = new Cicada(new DateTime(2022, 1, 10), "クマゼミ", 4f, 0f, 6f);
+            cicada.SelfIntroduction();
         }
     }
 }
