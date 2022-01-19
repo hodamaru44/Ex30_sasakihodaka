@@ -11,7 +11,10 @@ namespace Inheritance
         }
         public void SelfIntroduction()
         {
-            Console.WriteLine($"この魚は{name}です。");
+            Console.Write($"この魚は{name}です。");
+            Birthday();
+            BirthdayConfirmation();
+           
         }
     }
 }

@@ -13,6 +13,8 @@ namespace Inheritance
         public void SelfIntroduction()
         {
             Console.WriteLine($"{name}の学生です。");
+            Birthday();
+            BirthdayConfirmation();
         }
     }
 }

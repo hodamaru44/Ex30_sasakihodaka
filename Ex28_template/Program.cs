@@ -6,19 +6,18 @@ namespace Inheritance
     {
         static void Main(string[] args)
         {
-            Person person = new Person(DateTime.Now, "デジタル太郎", 0.5f, 160f, 50f);
-            Console.WriteLine("Hello World!");
-            Cat cat = new Cat(DateTime.Now, "ペルシャ", 4380, 10);
+            Cat cat = new Cat(new DateTime(2018,8,4), "ペルシャ", 43, 10);
             cat.SelfIntroduction();
-            Car car = new Car("マツダ", 4380, 10);
+            Car car = new Car("マツダ", 700,10,9);
             car.SelfIntroduction();
-            Fish fish = new Fish(DateTime.Now, "マグロ", 10);
+            Fish fish = new Fish(new DateTime(2010, 10, 5), "鮎", 1f, 5f); 
             fish.SelfIntroduction();
-            Insect insect= new Insect(DateTime.Now, "カブトムシ", 10);
+            Insect insect = new Insect(new DateTime(2020, 1, 10), "カブトムシ", 1f, 0f, 6f); 
             insect.SelfIntroduction();
-            Student student = new Student(new DateTime(2001,1,20), "電子機械科", 10);
-            insect.SelfIntroduction();
-            Worker worker = new Worker(new DateTime(1997,7,2), "高校教師", 10);
+            Student student = new Student(new DateTime(2001,1,20), "電子機械科");
+            student.SelfIntroduction();
+            Worker worker = new Worker(new DateTime(1997,7,2), "高校教師");
+            worker.SelfIntroduction();
         }
     }
 }

@@ -13,6 +13,9 @@ namespace Inheritance
         public void SelfIntroduction()
         {
             Console.WriteLine($"{name}の労働者です。");
+            Birthday();
+            BirthdayConfirmation();
+           
         }
     }
 }

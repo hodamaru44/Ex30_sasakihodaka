@@ -15,6 +15,9 @@ namespace Inheritance
          public void SelfIntroduction()
         {
             Console.WriteLine($"この猫の種類は{name}です。");
+            Birthday();
+            BirthdayConfirmation();
+           
         }
     }
 }

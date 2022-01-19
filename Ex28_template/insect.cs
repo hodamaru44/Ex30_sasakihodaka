@@ -10,9 +10,12 @@ namespace Inheritance
         {
 
         }
-        new public void SelfIntroduction()
+        public void SelfIntroduction()
         {
             Console.WriteLine($"この昆虫は{name}です。");
+            Birthday();
+            BirthdayConfirmation();
+            
         }
     }
 }
