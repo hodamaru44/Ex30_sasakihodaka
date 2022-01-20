@@ -45,8 +45,12 @@ namespace Inheritance
         }
         public void CicadaLifeSpan()
         {
-            float Life =7-lifespan;
-            Console.WriteLine($"寿命は{Life}日くらいです。");
+            float Life =7-_birthDay.Day;
+            if (Life < 0)
+            {
+                Life = 0;
+            }
+            Console.WriteLine($"寿命は{Life}日です。");
         }
     }
 }
