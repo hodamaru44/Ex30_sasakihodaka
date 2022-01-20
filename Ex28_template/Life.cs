@@ -49,8 +49,12 @@ namespace Inheritance
             if (Life < 0)
             {
                 Life = 0;
+                Console.WriteLine($"寿命は{Life}日です。寿命がつきましたΩ＼ζ°)ﾁｰﾝ");
             }
-            Console.WriteLine($"寿命は{Life}日です。");
+            else
+            {
+                Console.WriteLine($"寿命は{Life}日です。");
+            }
         }
     }
 }
