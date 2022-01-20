@@ -15,9 +15,6 @@ namespace Inheritance
             Console.WriteLine($"この昆虫は{name}です。");
             Birthday();
             BirthdayConfirmation();
-            LifeSpan();
-
-
         }
     }
 }
